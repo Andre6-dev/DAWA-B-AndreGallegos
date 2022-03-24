@@ -347,6 +347,7 @@ let peliculas = [
     },
 ];
 
+// El metodo filter nos permite filtrar por alguna condicion, en este caso filtramos por el campo "original_language"
 const filtroPorPelicula = peliculas.filter(peliculaIngles => peliculaIngles.original_language === "en")
 
 console.log(filtroPorPelicula)

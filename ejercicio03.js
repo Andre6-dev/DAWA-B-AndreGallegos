@@ -6,6 +6,7 @@ entonces la comisión es de S/.50 más el 9% de las ventas. */
 
 const ventasEmpleado = parseFloat(prompt("Ingresa tus ventas totales: "));
 
+// Funcion flecha para la comision
 const comision = (ventasTotales) => {
 
     const comision1 = 0.1
